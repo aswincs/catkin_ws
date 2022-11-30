@@ -1,0 +1,8 @@
+prefix=/home/robot/catkin_ws/install
+
+Name: lqr_invpend_control
+Description: Description of lqr_invpend_control
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

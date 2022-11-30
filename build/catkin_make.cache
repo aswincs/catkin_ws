@@ -1,0 +1,2 @@
+lqr_invpend_control:pen_control:pen_description
+-DCATKIN_DEVEL_PREFIX=/home/robot/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/robot/catkin_ws/install -G Unix Makefiles

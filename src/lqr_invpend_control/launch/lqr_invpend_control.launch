@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+    <include file="$(find pen_description)/launch/gazebo.launch"/>
+    <include file="$(find pen_control)/launch/pen_control.launch"/>
+    <node name="lqr_controller" pkg="lqr_invpend_control" type="1control.py" output="screen"/>
+</launch>
